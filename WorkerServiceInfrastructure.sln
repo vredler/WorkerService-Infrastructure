@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerServiceExample", "WorkerServiceExample\WorkerServiceExample.csproj", "{9F8284A6-8891-457F-893C-AF7B82C6F76C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerService.Scheduled.Infrastructure", "WorkerService.Scheduled.Infrastructure\WorkerService.Scheduled.Infrastructure.csproj", "{BBD18704-6FA1-4A69-8EB7-FD7D098A3D5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9F8284A6-8891-457F-893C-AF7B82C6F76C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8284A6-8891-457F-893C-AF7B82C6F76C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8284A6-8891-457F-893C-AF7B82C6F76C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8284A6-8891-457F-893C-AF7B82C6F76C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD18704-6FA1-4A69-8EB7-FD7D098A3D5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD18704-6FA1-4A69-8EB7-FD7D098A3D5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD18704-6FA1-4A69-8EB7-FD7D098A3D5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD18704-6FA1-4A69-8EB7-FD7D098A3D5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6794596-0533-43B5-9F32-B053E7B54E96}
+	EndGlobalSection
+EndGlobal
